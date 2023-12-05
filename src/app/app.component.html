@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table class="head">
+      <tbody>
+        <tr>
+          <td class="logo">
+            <app-logo></app-logo>
+          </td>
+          <td>
+            <app-menu></app-menu>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="head">
+      <tbody>
+        <tr>
+          <td class="sidebar">
+            <app-sidebar></app-sidebar>
+          </td>
+          <td class="dynamic">
+            <router-outlet></router-outlet>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    
+
+  </body>
+</html>
